@@ -1,4 +1,5 @@
 Summary:	Runs a command supervising its execution
+Summary(pl):	Uruchamianie poleceñ z nadzorowaniem ich wykonywania
 Name:		launchtool
 Version:	0.6
 Release:	1
@@ -7,6 +8,8 @@ Group:		Applications/System
 Vendor:		Enrico Zini <enrico@debian.org>
 Source0:	http://people.debian.org/~enrico/local/source/%{name}_%{version}-1.tar.gz
 URL:		http://people.debian.org/~enrico/launchtool.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:  popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -17,8 +20,15 @@ environment, blocking signals, logging its output, changing user and
 group permissions, limiting resource usage, restarting it if it fails,
 running it continuously and turn it into a daemon.
 
+%description -l pl
+launchtool jest narzêdziem, które uruchamia podane polecenie i mo¿e
+nadzorowaæ jego wykonywanie na wiele sposobów, takich jak kontrola
+jego ¶rodowiska, blokowanie sygna³ów, logowanie wyj¶cia, zmiana
+uprawnieñ u¿ytkownika i grupy, ograniczanie u¿ycia zasobów, restart w
+przypadku niepowodzenia, uruchamianie bez przerwy i zamiana w demona.
+
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__aclocal}
