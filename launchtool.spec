@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/System
 Vendor:		Enrico Zini <enrico@debian.org>
 Source0:	http://people.debian.org/~enrico/local/source/%{name}_%{version}-1.tar.gz
+# Source0-md5:	0b1ba89f6d5ed64e6948a7c9ae6645a4
 URL:		http://people.debian.org/~enrico/launchtool.html
 BuildRequires:	autoconf
 BuildRequires:	automake
