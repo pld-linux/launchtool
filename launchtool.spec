@@ -1,13 +1,13 @@
 Summary:	Runs a command supervising its execution
 Summary(pl):	Uruchamianie poleceñ z nadzorowaniem ich wykonywania
 Name:		launchtool
-Version:	0.6
+Version:	0.7
 Release:	1
 License:	GPL
 Group:		Applications/System
 Vendor:		Enrico Zini <enrico@debian.org>
-Source0:	http://people.debian.org/~enrico/local/source/%{name}_%{version}-1.tar.gz
-# Source0-md5:	0b1ba89f6d5ed64e6948a7c9ae6645a4
+Source0:	http://people.debian.org/~enrico/woody/source/%{name}_%{version}-1.tar.gz
+# Source0-md5:	4c0817af1615baee68688ac1dbc21907
 URL:		http://people.debian.org/~enrico/launchtool.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -50,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README ChangeLog
+%doc AUTHORS README ChangeLog NEWS TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
