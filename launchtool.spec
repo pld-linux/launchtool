@@ -11,7 +11,7 @@ Source0:	http://people.debian.org/~enrico/local/source/%{name}_%{version}-1.tar.
 URL:		http://people.debian.org/~enrico/launchtool.html
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:  popt-devel
+BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
