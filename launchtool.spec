@@ -7,6 +7,7 @@ Group:		Applications/System
 Vendor:		Enrico Zini <enrico@debian.org>
 Source0:	http://people.debian.org/~enrico/local/source/%{name}_%{version}-1.tar.gz
 URL:		http://people.debian.org/~enrico/launchtool.html
+BuildRequires:  popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
