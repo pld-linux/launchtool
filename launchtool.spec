@@ -1,5 +1,5 @@
 Summary:	Runs a command supervising its execution
-Summary(pl):	Uruchamianie poleceÒ z nadzorowaniem ich wykonywania
+Summary(pl.UTF-8):   Uruchamianie polece≈Ñ z nadzorowaniem ich wykonywania
 Name:		launchtool
 Version:	0.7
 Release:	1
@@ -22,11 +22,11 @@ environment, blocking signals, logging its output, changing user and
 group permissions, limiting resource usage, restarting it if it fails,
 running it continuously and turn it into a daemon.
 
-%description -l pl
-launchtool jest narzÍdziem, ktÛre uruchamia podane polecenie i moøe
-nadzorowaÊ jego wykonywanie na wiele sposobÛw, takich jak kontrola
-jego ∂rodowiska, blokowanie sygna≥Ûw, logowanie wyj∂cia, zmiana
-uprawnieÒ uøytkownika i grupy, ograniczanie uøycia zasobÛw, restart w
+%description -l pl.UTF-8
+launchtool jest narzƒôdziem, kt√≥re uruchamia podane polecenie i mo≈ºe
+nadzorowaƒá jego wykonywanie na wiele sposob√≥w, takich jak kontrola
+jego ≈õrodowiska, blokowanie sygna≈Ç√≥w, logowanie wyj≈õcia, zmiana
+uprawnie≈Ñ u≈ºytkownika i grupy, ograniczanie u≈ºycia zasob√≥w, restart w
 przypadku niepowodzenia, uruchamianie bez przerwy i zamiana w demona.
 
 %prep
