@@ -1,5 +1,5 @@
 Summary:	Runs a command supervising its execution
-Summary(pl.UTF-8):   Uruchamianie poleceń z nadzorowaniem ich wykonywania
+Summary(pl.UTF-8):	Uruchamianie poleceń z nadzorowaniem ich wykonywania
 Name:		launchtool
 Version:	0.7
 Release:	1
